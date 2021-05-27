@@ -1,0 +1,27 @@
+{
+    "name": "wimil/javascript-obfuscator",
+    "description": "PHP library to obfuscate JS files",
+    "keywords": [
+        "php",
+        "js",
+        "obsfucate",
+        "obfuscator"
+    ],
+    "homepage": "https://github.com/wimil/javascript-obfuscator",
+    "support": {
+        "issues": "https://github.com/wimil/javascript-obfuscator/issues",
+        "source": "https://github.com/wimil/javascript-obfuscator"
+    },
+    "license": "MIT",
+    "require": {
+        "php": "^7.3.0"
+    },
+    "autoload": {
+		"files": [
+			"src/JSObfuscator.php"
+		],
+		"psr-4": {
+			"Wimil\\": "src"
+		}
+	}
+}
